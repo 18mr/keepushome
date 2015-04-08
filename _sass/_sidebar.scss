@@ -1,0 +1,12 @@
+.sidebar {
+	width: 300px;
+	float: right;
+	padding-top: 3em;
+}
+
+.fb-like-box {
+	background-color: #fff;
+	width: 290px;
+	padding: 5px;
+	@include radius(5px);
+}

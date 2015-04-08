@@ -4,20 +4,28 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<h1>Telling the Stories of Undocumented Adoptees</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+		<img class="featured-slider" src="{{ post.featured-image }}" />
+		<div class="overlay">
+			<h2>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
+			<span>{{ post.blurb | truncatewords: 25, '...' }} <a href="{{ post.url | prepend: site.baseurl }}">Read More</a></span>
+		</div>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  
+  <p>
+	Adam Crapser was adopted from Korea into an abusive family as a child. Even though it was promised to him, Adam still doesn’t have his citizenship due to loopholes in U.S. adoption law. Now, he faces deportation to Korea, a country whose language and culture he doesn’t understand. Deportation would rip him away from his wife and children--the family he has longed for most of his life.
+  </p><p>
+	<strong>Like Adam, because of a loophole created by the Child Citizenship Act of 2000 and neglect by their adoptive families and adoption agencies, thousands of adoptees in the US are without their citizenship.</strong> These adoptees, promised all of the rights and privileges held by their adoptive families, still can’t open bank accounts, obtain passports and drivers licenses, or get jobs. However, an amendment that would give retroactive citizenship to all international adoptees--including Adam--is gaining support in Washington. It has already garnered public support from Senators Jeff Merkley (D-OR) and Amy Klobuchar (D-MN) and the private support of lawmakers on both sides of the aisle. It’s likely the amendment will be introduced in Congress as a standalone bill this spring.
+  </p><p>
+	Now is the time to take action, for Adam and other undocumented adoptees. Contact your lawmakers to encourage them to keep Adam home with his family and to finally fix the Child Citizenship Act of 2000. Tell them to #KeepUsHome: so Adam can receive the justice he deserves, adoptees who’ve been deported can come back to the US, and all international adoptees can hold in their hands what was promised to them as children: their citizenship.
+  </p>
+  
 </div>

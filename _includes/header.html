@@ -23,10 +23,10 @@
 		<nav id="top-links">
 			<ul>
 				<li>
-					<a href="{{ baseurl }}">Home</a>
+					<a href="{{ site:baseurl }}/index.html">Home</a>
 				</li>
 				<li class="parent">
-					<a href="{{ baseurl }}">Stories</a>
+					<a href="{{ site:baseurl }}/stories">Stories</a>
 					<ul class="dropdown visuallyhidden">
 						{% for post in site.categories.stories limit:5 %}
 							<li>

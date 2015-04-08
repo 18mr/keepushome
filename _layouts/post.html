@@ -9,6 +9,12 @@ layout: default
   </header>
 
   <article class="post-content">
+	{% if page.featured-image %}
+		<img src="{{ page.featured-image }}">
+		{% if page.featured-caption %}
+			<span class="caption">{{ page.featured-caption }}</span>
+		{% endif %}
+	{% endif %}
     {{ content }}
   </article>
 

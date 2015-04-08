@@ -4,6 +4,7 @@ title: 'Adam Crapser'
 permalink: /adams-story/
 category: stories
 featured-image: '/static/images/featured/adam.jpg'
+featured-caption: 'Adam, his wife, and his kids at home in Vancouver, Washington.'
 blurb: 'I’m determined to ensure that my wife and children are provided with a life of love and happiness.'
 ---
 

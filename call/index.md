@@ -4,6 +4,7 @@ title: 'Call Congress'
 permalink: /call/
 display-title: false
 cca-call-congress: true
+featured-image: '/static/images/featured/crapser.png'
 ---
 <ul class="compact" id="phone-errors"></ul>
 

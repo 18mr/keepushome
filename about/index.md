@@ -20,7 +20,7 @@ Now is the time to take action, for Adam and other undocumented adoptees. Contac
 <ul class="rig">
 	<li>
 		<img src="{{ site:baseurl }}/static/images/logos/18mr.png" />
-		<span><a href="http://18millionrising.org">18MillionRising.org</a></span>
+		<span><a href="http://18millionrising.org">18MR.org</a></span>
 	</li>
 	<li>
 		<img src="{{ site:baseurl }}/static/images/logos/gazillionstrong.jpg" />

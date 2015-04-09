@@ -1,7 +1,8 @@
 ---
-layout: fundraiser
+layout: action
 title: 'Support the Campaign'
 permalink: /give/
+display-title: true
 ---
 We're a group of grassroots and netroots organizers and the work that we've done so far has made a huge impact. In order to run the tools we're using on this site to help activists call their Congressional representatives, we're spending cash out of pocket. Please consider supporting our efforts--and keeping the momentum rolling--on this important campaign.
 

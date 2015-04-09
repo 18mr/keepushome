@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ##What Law Are We Trying to Change?
 
-It used to be that if you were adopted from another country into an American family, your family had to complete paperwork to apply for your naturalization. Though many adoptive parents filed their adopted child's paperwork, some parents either didn't know they had to, or didn't want to, do this for their child. These kids ended up coming of age undocumented, in spite of being raised in U.S. citizen families.
+It used to be that if you were adopted from another country into an American family, your family had to complete paperwork to apply for your naturalization. Though many adoptive parents filed their adopted child's paperwork, some parents either didn't know they had to, or didn't want to, do this for their child. These kids ended up coming of age without citizenship, in spite of being raised in U.S. citizen families.
 
 In 2000, Congress passed the Child Citizenship Act, which dealt with this loophole facing international adoptees in the United States. Unfortunately, it created a new one: while it granted citizenship to children adopted into U.S. families age 18 and under, those who had aged out--who were older than 18 years of age in 2000--were excluded from the Act. Those adoptees--thousands, from countries around the world--were left high and dry.
 
@@ -13,7 +13,7 @@ __Undocumented adoptees can't get driver licenses or passports. They can't open 
 
 We're working to get the Child Citizenship Act of 2000 amended to include those left out in the original law, so adoptees like [Adam Crapser](http://keepushome.org/adams-story/) don't have to live in the shadows anymore. The amendment has already garnered public support from Senators Jeff Merkley (D-OR) and Amy Klobuchar (D-MN) and the private support of lawmakers on both sides of the aisle. It’s likely the amendment will be introduced in Congress as a standalone bill this spring.
 
-Now is the time to take action, for Adam and other undocumented adoptees. Contact your lawmakers to encourage them to keep Adam home with his family and to finally fix the Child Citizenship Act of 2000. Tell them to #KeepUsHome: so Adam can receive the justice he deserves, adoptees who’ve been deported can come back to the US, and all international adoptees can hold in their hands what was promised to them as children: their citizenship.
+Now is the time to take action, for Adam and other adoptees without citizenship. Contact your lawmakers to encourage them to keep Adam home with his family and to finally fix the Child Citizenship Act of 2000. Tell them to #KeepUsHome: so Adam can receive the justice he deserves, adoptees who’ve been deported can come back to the US, and all international adoptees can hold in their hands what was promised to them as children: their citizenship.
 
 ##Who Made This?
 

@@ -3,7 +3,7 @@ layout: action
 title: 'Call Congress'
 permalink: /call/
 display-title: false
-cca-ally-call: true
+cca-call-congress: true
 ---
 <ul class="compact" id="phone-errors"></ul>
 

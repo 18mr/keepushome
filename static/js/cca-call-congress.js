@@ -44,13 +44,10 @@ $(document).on('can_embed_loaded', function() {
 			e.preventDefault();
             return fieldError('phone','Please enter a valid US phone number');
         }
-		
-		var zipcode = $('#form-zip_code').val();
 
         var data = {
             campaignId: 'cca-call-congress',
-            userPhone: validatePhone(phone),
-			zipcode: zipcode
+            userPhone: validatePhone(phone)
         };
 
         $.ajax({

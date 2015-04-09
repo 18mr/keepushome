@@ -13,6 +13,7 @@ featured-image: '/static/images/featured/crapser.png'
 	$(document).ready(function() {
 		$('#can-petition-area-call-congress-be-a-champion-for-adoptee-citizenship').on('can_embed_loaded', function() {
 			document.getElementsByName("commit")[0].value = "Call Now";
+			$(".action_sidebar h4").text("Take Action");
 		});
 	});
 </script>

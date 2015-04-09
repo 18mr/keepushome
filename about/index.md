@@ -11,7 +11,7 @@ In 2000, Congress passed the Child Citizenship Act, which dealt with this loopho
 
 __Undocumented adoptees can't get driver licenses or passports. They can't open a bank account. They can't get a job. And, if they run into trouble with the law, they're at risk of deportation to the countries they were adopted from, often at very young ages.__
 
-We're working to get the Child Citizenship Act of 2000 amended to include those left out in the original law, so adoptees like [Adam Crapser](http://keepushome.org/adams-story/) don't have to live in the shadows anymore. The amendment has already garnered public support from Senators Jeff Merkley (D-OR) and Amy Klobuchar (D-MN) and the private support of lawmakers on both sides of the aisle. It’s likely the amendment will be introduced in Congress as a standalone bill this spring.
+We're working to get the Child Citizenship Act of 2000 amended to include those left out in the original law, so adoptees like [Adam Crapser](http://keepushome.org/adams-story/) don't have to live in the shadows anymore. The amendment has already garnered public support from Senators Jeff Merkley (D-OR) and Amy Klobuchar (D-MN) and the private support of lawmakers on both sides of the aisle.
 
 Now is the time to take action, for Adam and other adoptees without citizenship. Contact your lawmakers to encourage them to keep Adam home with his family and to finally fix the Child Citizenship Act of 2000. Tell them to #KeepUsHome: so Adam can receive the justice he deserves, adoptees who’ve been deported can come back to the US, and all international adoptees can hold in their hands what was promised to them as children: their citizenship.
 
@@ -29,6 +29,10 @@ Now is the time to take action, for Adam and other adoptees without citizenship.
 	<li>
 		<img src="{{ site:baseurl }}/static/images/logos/gazillionadoptees.jpg" />
 		<span><a href="http://landofgazillionadoptees.com">Land of Gazillion Adoptees</a></span>
+	</li>
+	<li>
+		<img src="{{ site:baseurl }}/static/images/logos/goal.jpg" />
+		<span><a href="http://goal.or.kr">Global Overseas Adoptees' Link</a></span>
 	</li>
 </ul>
 

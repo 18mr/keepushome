@@ -1,0 +1,4 @@
+<div class="share-page">
+    <span><a href="https://twitter.com/intent/tweet?text={{ page.twittertext | truncate: 100 }}&url={{ site.url }}{% if page.cleanurl %}{{ page.cleanurl }}{% else %}{{ page.url }}{% endif %}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Share on Twitter</a></span>
+    <span><a href="https://www.facebook.com/dialog/share?app_id=401250250046241&display=popup&href={{ site.url }}{% if page.cleanurl %}{{ page.cleanurl }}{% else %}{{ page.url }}{% endif %}&redirect_uri={{ site.url }}{% if page.cleanurl %}{{ page.cleanurl }}{% else %}{{ page.url }}{% endif %}">Share on Facebook</a></span>
+</div>

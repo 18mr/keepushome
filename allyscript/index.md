@@ -2,6 +2,8 @@
 layout: fullwidth
 title: "You're calling your Members of Congress"
 permalink: /call-script/
+cleanurl: /call/
+twittertext: 'Adoptees need citizenship: call Congress and tell them to %23AmendtheCCA and %23KeepUsHome!'
 ---
 ## You're Being Connected!
 

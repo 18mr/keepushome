@@ -1,14 +1,25 @@
 ---
 layout: default
 url: /
+slider: true
 ---
 
 <div class="home">
 
 <h1>Telling the Stories of Noncitizen Adoptees</h1>
 
+<script language="javascript">
+$(document).ready(function(){
+  $('.post-list').bxSlider({
+	auto: true,
+	pause: 6000,
+	autoHover: true
+	});
+});
+</script>
+
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
       <li>
 		<img class="featured-slider" src="{{ post.featured-image }}" />
 		<div class="overlay">

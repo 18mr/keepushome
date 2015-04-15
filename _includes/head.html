@@ -69,6 +69,10 @@
   {% if page.cca-call-congress == true %}
   <script src="{{ baseurl }}/static/js/cca-call-congress.js"></script>
   {% endif %}
+  
+  {% if page.slider == true %}
+  <script src="{{ baseurl }}/static/js/jquery.bxslider.min.js"></script>
+  {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

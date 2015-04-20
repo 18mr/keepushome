@@ -102,7 +102,7 @@
 	
 	/* Petition Page */
 	
-	#can_embed_form {
+	#can_embed_form.can_float {
   
 		#can_main_col {
 			float: none;
@@ -126,6 +126,10 @@
 				margin-bottom: $spacing-unit;
 			}
 		}
+	}
+	
+	#can_embed_form.can_thank_you_wrap.can_float {
+		padding-top: 20px;
 	}
 	
 	ul#footer {

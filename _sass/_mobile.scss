@@ -104,11 +104,44 @@
 	
 	#can_embed_form.can_float {
   
+		h4 {
+			text-transform: uppercase;
+		}
+
+		.entry-title {
+			text-transform: uppercase !important;
+			font-size: 35px;
+			line-height: 40px !important;
+			border-bottom: none !important;
+			padding-bottom: 0 !important;
+			font-family: $header-font-family;
+		}
+
+		input[type="submit"] {
+			background-color: $medium-blue !important;
+			font-family: 'league-gothic';
+			font-size: 20px !important;
+			font-weight: 400 !important;
+			text-transform: uppercase;
+	
+			&:hover {
+				background-color: darken($medium-blue, 25%) !important;
+			}
+		}
+	
+		#d_sharing {
+	
+			ul {
+				margin-left: 0;
+				color: $the-gray !important;
+			}
+		}
+  
 		#can_main_col {
 			float: none;
 			margin: auto;
 			width: 100%;
-			margin-top: -10px;
+			margin-top: 20px;
 		}
 	
 		#can_sidebar {
@@ -116,6 +149,8 @@
 			float: none;
 			margin: auto;
 			width: 100%;
+			background-color: lighten($medium-brown, 15%);
+			@include radius(10px);
 			
 			.action_widget {
 				padding-top: 10px;

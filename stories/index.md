@@ -7,7 +7,7 @@ permalink: /stories/
 <ul class="post-list">
     {% for post in site.posts %}
       <li>
-		<img class="featured-slider" src="{{ post.featured-image }}" />
+		<img class="featured" src="{{ post.featured-image }}" />
 		<div class="overlay">
 			<h2>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

@@ -3,6 +3,12 @@
 @media only screen 
 	and (max-width: 768px) {
 	
+	/* General */
+	
+	.wrapper {
+		width: 95%;
+	}
+	
 	/* Header */
 	
 	header #logo {
@@ -19,6 +25,16 @@
 		
 			h1 {
 				display: none;
+			}
+		}
+	}
+	
+	nav#top-links {
+		
+		ul {
+			
+			li {
+				max-width: 100%;
 			}
 		}
 	}
@@ -179,8 +195,61 @@
 	and (max-width: 992px)
 	and (min-width: 769px) {
 
+	/* General */
+	
 	.home {
 		width: 100%;
 		float: none;
+		margin-top: 35px;
 	}
+	
+	/* Post */
+	
+	.post {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 60px;
+	}
+	
+	/* Header */
+	
+	header {
+		#logo {
+			margin-right: 0;
+		}
+	
+		#donate-widget {
+			float: right;
+			margin-left: 0;
+		}
+	}
+	
+	/* Sidebar */
+	
+	.sidebar {
+		float: none;
+		width: 100%;
+		padding-top: 0;
+		clear: both;
+		
+		#call-congress-widget {
+			width: 270px;
+		}
+		
+		#twitter-widget-0 {
+			width: 80% !important;
+			display: block !important;
+			margin: auto !important;
+		}
+		
+		.fb-share-button {
+			margin: auto;
+			display: block;
+			width: 87px;
+			margin-bottom: 15px;
+			margin-top: 15px;
+		}	
+	}
+	
 }

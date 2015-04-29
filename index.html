@@ -14,7 +14,9 @@ $(document).ready(function(){
 	auto: true,
 	pause: 6000,
 	autoHover: true,
-	slideWidth: 634
+	slideWidth: 634,
+	responsive: true,
+	video: true
 	});
 });
 </script>
@@ -22,6 +24,15 @@ $(document).ready(function(){
   <ul class="post-list">
     {% for post in site.posts reversed %}
       <li>
+		{% if post.video-url %}
+		<iframe src="{{ post.video-url }}" allowfullscreen></iframe>
+		<div class="vid-caption">
+			<h2>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
+			<span>{{ post.blurb | truncatewords: 25, '...' }} <a href="{{ post.url | prepend: site.baseurl }}">Read More</a></span>
+		</div>
+		{% else %}
 		<img class="featured-slider" src="{{ post.featured-image }}" />
 		<div class="overlay">
 			<h2>
@@ -29,6 +40,7 @@ $(document).ready(function(){
 			</h2>
 			<span>{{ post.blurb | truncatewords: 25, '...' }} <a href="{{ post.url | prepend: site.baseurl }}">Read More</a></span>
 		</div>
+		{% endif %}
       </li>
     {% endfor %}
   </ul>

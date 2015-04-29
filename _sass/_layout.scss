@@ -271,3 +271,36 @@ h2 {
 		}
 	}
 }
+
+.vid-caption {
+	float: none;
+	z-index: 9999999;
+	padding: 1em;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.6);
+	opacity: .99;
+	color: white;
+	
+	h2 {
+		font-size: 30px;
+		margin-bottom: 6px;
+	}
+	
+	a {
+		color: $the-yellow;
+		    
+		&:hover {
+			color: $medium-blue;
+			outline: 0;
+			@include fade-transition(color 500ms);
+		}
+	}
+	
+	span {
+		font-size: 1.1em;
+		
+		a {
+			font-weight:bold;
+		}
+	}
+}

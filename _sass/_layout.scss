@@ -113,7 +113,7 @@ home {
 }
 
 .post {
-	width: 640px;
+	max-width: 640px;
 	float: left;
 	margin-top: 30px;
 }
@@ -152,6 +152,8 @@ h2 {
 .post-list {
     margin-left: 0;
     list-style: none;
+	max-width: 635px;
+	margin: auto;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -190,6 +192,8 @@ h2 {
 
 .post-content {
     margin-bottom: $spacing-unit;
+	max-width: 600px;
+	margin: auto;
 
     h2 {
         font-size: 28px;

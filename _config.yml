@@ -13,6 +13,8 @@ facebook_url:  'http://facebook.com/18MillionRising.org'
 # Build settings
 markdown: kramdown
 
+gems: [jekyll-paginate]
+
 permalink: title
 paginate: 9
 

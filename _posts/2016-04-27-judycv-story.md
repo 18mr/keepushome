@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ‘Judy CV’
+title: 'Judy CV'
 permalink: /judycv-story/
 category: stories
 featured-image: '/static/images/featured/judycv.jpeg'

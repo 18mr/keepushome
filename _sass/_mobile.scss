@@ -1,0 +1,255 @@
+/* Small Device */
+
+@media only screen 
+	and (max-width: 768px) {
+	
+	/* General */
+	
+	.wrapper {
+		width: 95%;
+	}
+	
+	/* Header */
+	
+	header #logo {
+		width: 100%;
+		float: none;
+		margin: auto;
+		
+		div {
+			float: none;
+			margin: auto;
+		}
+		
+		hgroup {
+		
+			h1 {
+				display: none;
+			}
+		}
+	}
+	
+	nav#top-links {
+		
+		ul {
+			
+			li {
+				max-width: 100%;
+			}
+		}
+	}
+	
+	#donate-widget {
+		display: none;
+	}
+	
+	/* Sidebar */
+	
+	.sidebar {
+		float: none;
+		width: 100%;
+		padding-top: 0;
+		clear: both;
+		
+		#call-congress-widget {
+			width: 270px;
+		}
+		
+		#twitter-widget-0 {
+			width: 80% !important;
+			display: block !important;
+			margin: auto !important;
+		}
+		
+		.fb-share-button {
+			margin: auto;
+			display: block;
+			width: 87px;
+			margin-bottom: 15px;
+			margin-top: 15px;
+		}	
+	}
+	
+	/* Homepage */
+	
+	.home {
+		width: 100%;
+		float: none;
+		margin-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.site-header {
+		height: auto;
+		
+		#top-links ul {
+			height: auto;
+			margin-top: 5px;
+			
+			li {
+				width: 100%;
+				border-right: 0;
+				border-left: 0;
+				margin-left: 0;
+				margin-top: 3px;
+				
+				&:first-child, &:last-child {
+					@include radius(0);
+				}
+				
+				a {
+					width: 100%;
+				}
+				
+				ul {
+					display: none;
+				}
+			}
+		}
+	}
+	
+	/* Post */
+	
+	.post {
+		width: 100%;
+		margin-top: 0;
+		float: none;
+	}
+	
+	/* Petition Page */
+	
+	#can_embed_form.can_float {
+  
+		h4 {
+			text-transform: uppercase;
+		}
+
+		.entry-title {
+			text-transform: uppercase !important;
+			font-size: 35px;
+			line-height: 40px !important;
+			border-bottom: none !important;
+			padding-bottom: 0 !important;
+			font-family: $header-font-family;
+		}
+
+		input[type="submit"] {
+			background-color: $medium-blue !important;
+			font-family: 'league-gothic';
+			font-size: 20px !important;
+			font-weight: 400 !important;
+			text-transform: uppercase;
+	
+			&:hover {
+				background-color: darken($medium-blue, 25%) !important;
+			}
+		}
+	
+		#d_sharing {
+	
+			ul {
+				margin-left: 0;
+				color: $the-gray !important;
+			}
+		}
+  
+		#can_main_col {
+			float: none;
+			margin: auto;
+			width: 100%;
+			margin-top: -25px;
+		}
+	
+		#can_sidebar {
+			clear: both;
+			float: none;
+			margin: auto;
+			width: 100%;
+			background-color: lighten($medium-brown, 15%);
+			@include radius(10px);
+			
+			.action_widget {
+				padding-top: 10px;
+			}
+		
+			.action_sidebar {
+				padding: 0 10px 10px;
+				margin-bottom: $spacing-unit;
+			}
+		}
+	}
+	
+	#can_embed_form.can_thank_you_wrap.can_float {
+		padding-top: 20px;
+	}
+	
+	ul#footer {
+		height: auto;
+		margin-bottom: 20px;
+	}
+}
+
+/* Medium Device */
+
+@media only screen 
+	and (max-width: 992px)
+	and (min-width: 769px) {
+
+	/* General */
+	
+	.home {
+		width: 100%;
+		float: none;
+		margin-top: 35px;
+	}
+	
+	/* Post */
+	
+	.post {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 60px;
+	}
+	
+	/* Header */
+	
+	header {
+		#logo {
+			margin-right: 0;
+		}
+	
+		#donate-widget {
+			float: right;
+			margin-left: 0;
+		}
+	}
+	
+	/* Sidebar */
+	
+	.sidebar {
+		float: none;
+		width: 100%;
+		padding-top: 0;
+		clear: both;
+		
+		#call-congress-widget {
+			width: 270px;
+		}
+		
+		#twitter-widget-0 {
+			width: 80% !important;
+			display: block !important;
+			margin: auto !important;
+		}
+		
+		.fb-share-button {
+			margin: auto;
+			display: block;
+			width: 87px;
+			margin-bottom: 15px;
+			margin-top: 15px;
+		}	
+	}
+	
+}

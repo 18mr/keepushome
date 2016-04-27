@@ -1,0 +1,306 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-image: $background-image;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    padding: 20px 0 10px 0;
+	border-top: 1px $the-gray solid;
+}
+
+.copyleft {
+	margin-bottom: 10px;
+}
+
+.copy-logo {
+	display: inline-block;
+	-webkit-transform: scale(-1, 1);
+}
+
+/**
+  * Body
+  */
+
+home {
+	width: 640px;
+}
+
+.post {
+	max-width: 640px;
+	float: left;
+	margin-top: 30px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+/**
+  * Homepage
+  */
+
+#index-welcome {
+
+	h1 {
+		font-size: 48px;
+	}
+}
+
+
+/**
+ * Page content
+ */
+.page-content {
+	margin-top: $spacing-unit;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+	height: 60px;
+	margin-bottom: 30px;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+	max-width: 600px;
+	margin: auto;
+
+    h2 {
+        font-size: 28px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+.featurebox {
+	@include radius(10px);
+	padding: 1em;
+	background: $the-light-beige;
+	margin-bottom: 1.2em;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	ul {
+		font-size: 14px;
+		line-height: 2.14em;
+	}
+}
+
+/**
+ * Special Homepage Goodness
+ *
+**/
+
+.overlay {
+	float: none;
+	margin-top: -8.5em;
+	z-index: 9999999;
+	padding: 1em;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.6);
+	opacity: .99;
+	color: white;
+	
+	h2 {
+		font-size: 30px;
+		margin-bottom: 6px;
+	}
+	
+	a {
+		color: $the-yellow;
+		    
+		&:hover {
+			color: $medium-blue;
+			outline: 0;
+			@include fade-transition(color 500ms);
+		}
+	}
+	
+	span {
+		font-size: 1.1em;
+		
+		a {
+			font-weight:bold;
+		}
+	}
+}
+
+.vid-caption {
+	float: none;
+	z-index: 9999999;
+	padding: 1em;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.6);
+	opacity: .99;
+	color: white;
+	
+	h2 {
+		font-size: 30px;
+		margin-bottom: 6px;
+	}
+	
+	a {
+		color: $the-yellow;
+		    
+		&:hover {
+			color: $medium-blue;
+			outline: 0;
+			@include fade-transition(color 500ms);
+		}
+	}
+	
+	span {
+		font-size: 1.1em;
+		
+		a {
+			font-weight:bold;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+# Site settings
+title: "#KeepUsHome"
+email: info@keepushome.org
+description: > # this means to ignore newlines until "baseurl:"
+  We're calling on Congress to help us keep the adoptees who fell through a loophole in the Child Citizenship Act home. Join the fight.
+baseurl: "" 
+url: "http://www.keepushome.org" # the base hostname & protocol for your site
+twitter_username: keepushome
+github_username: 18mr
+github_projectname: keepushome
+facebook_url:  'http://facebook.com/18MillionRising.org'
+
+# Build settings
+markdown: kramdown
+
+gems: [jekyll-paginate]
+
+permalink: title
+paginate: 9
+
+exclude: [s3_website.yml]

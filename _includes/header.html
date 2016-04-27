@@ -1,0 +1,63 @@
+<header class="site-header">
+
+	<div class="wrapper">
+
+		<div id="logo">
+			<div>
+				<a href="{{ site:baseurl }}/index.html"><span></span></a>
+			</div>
+		</div>
+		
+		<aside id="donate-widget">
+			<h3>Support the Campaign</h3>
+			<span><a href="{{ site:baseurl }}/give">
+				<h3>Make a Donation!</h3>
+			</a></span>
+			<h4>see <a href="http://18millionrising.org/privacy/">privacy policy</a></h4>
+		</aside>
+
+	</div>
+	
+	<div class="wrapper">
+	
+		<nav id="top-links">
+			<ul>
+				<li>
+					<a href="{{ site:baseurl }}/index.html">Home</a>
+				</li>
+				<li class="parent">
+					<a href="{{ site:baseurl }}/stories">Stories</a>
+					<ul class="dropdown visuallyhidden">
+						{% for post in site.categories.stories limit:5 %}
+							<li>
+								<a href="{{ site:baseurl }}{{ post.url }}">
+									{{ post.title }}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+				<li>
+					<a href="{{ site:baseurl }}/share-story">Tell Your Story</a>
+				</li>
+				<li>
+					<a href="http://action.18mr.org/aca-2015">Call Congress</a>
+				</li>
+				<li>
+					<a href="{{ site:baseurl }}/about">About</a>
+				</li>
+			</ul>
+		</nav>
+		
+	</div>
+
+</header>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=141757769314383";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

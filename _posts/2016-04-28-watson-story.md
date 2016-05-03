@@ -3,7 +3,7 @@ layout: post
 title: 'Elias Watson'
 permalink: /watson-story/
 category: stories
-featured-image: ''
+featured-image: '/static/images/featured/elias.png'
 blurb: 'I really hope this law changes soon because my life without my family has been a nightmare.'
 twittertext: 'Elias Watson was deported to Venezuela and has been torn apart from his family. %23KeepUsHome'
 ---

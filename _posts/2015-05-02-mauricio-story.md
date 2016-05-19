@@ -5,7 +5,7 @@ permalink: /mauricio-story/
 category: stories
 featured-image: '/static/images/featured/mauricio.JPG'
 blurb: 'I was left in the airport with nothing, but a clear garbage bag of jail things in a country I have never lived in.'
-twittertext: ‘At 35 yrs old, Mauricio went on a 10 day vacation. When he returned to the U.S, he was detained and deported. %23KeepUsHome'
+twittertext: 'At 35 yrs old, Mauricio went on a 10 day vacation. When he returned to the U.S, he was detained and deported. %23KeepUsHome'
 ---
 
 My name is Mauricio Cappelli. I was born in San Jose, Costa Rica in 1979. I was brought to Milwaukee, WI in 1981 with my mother. My mother married a U.S. citizen in 1982. A couple months later, I received my legal permanent resident status and was adopted by my father. The adoption started in 1982 and was completed four years later in 1986. My parents had two more children and are still married. I was told I was a U.S citizen my whole life. 

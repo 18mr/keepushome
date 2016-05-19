@@ -3,7 +3,7 @@ layout: post
 title: 'Mauricio Cappelli'
 permalink: /mauricio-story/
 category: stories
-featured-image: '/static/images/featured/mauricio.jpg'
+featured-image: '/static/images/featured/mauricio.JPG'
 blurb: 'I was left in the airport with nothing, but a clear garbage bag of jail things in a country I have never lived in.'
 twittertext: ‘At 35 yrs old, Mauricio went on a 10 day vacation. When he returned to the U.S, he was detained and deported. %23KeepUsHome'
 ---
